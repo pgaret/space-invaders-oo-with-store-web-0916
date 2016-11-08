@@ -6,7 +6,7 @@ const CrewMember = (function createCrewMember() {
       this.id = crewHash['id']
       this.position = crewHash['position']
       this.currentShip = "Looking for a Rig"
-      Store.data.crewMembers.push(Store.data.crewMembers.push({crewMembers: [...Store[Store.length-1].crewMembers, this ], spaceships: [...Store[Store.length-1].spaceships, this ]}))
+      Store.data.crewMembers.push(this)
     }
 
 
